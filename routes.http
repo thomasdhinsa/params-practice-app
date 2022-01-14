@@ -1,0 +1,14 @@
+GET http://localhost:3000/seg_1/jiggle
+
+###
+
+GET http://localhost:3000/query_1?word=jiggle
+
+###
+
+POST http://localhost:3000/body_1
+Content-Type: application/json
+
+{
+  "word": "jiggle"
+}
